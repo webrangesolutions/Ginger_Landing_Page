@@ -1,0 +1,32 @@
+/* ContactUsSection.css */
+.contact-us-section {
+    background-image: url('../../public/rectangle-393901@2x.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 40px;
+    padding-left: 5%;
+    background-color: var(--primary);
+  }
+  
+  .contact-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 8%;
+  }
+  
+  .contact-us-text {
+    margin: 0;
+    font-family: var(--font-norwester);
+    font-size: var(--font-size-21xl);    
+    color: white;
+  }
+  
+  .back-arrow-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  

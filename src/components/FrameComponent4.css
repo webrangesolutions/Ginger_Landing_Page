@@ -1,0 +1,105 @@
+.ginger-landing-page-inner1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-47xl) var(--padding-70xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--primary);
+  font-family: var(--font-norwester);
+}
+.stories-group {
+  width: 1298px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  /* display: flex; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  padding: 0px 0px 0px var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frame-parent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-47xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.group-div {
+  display: grid;
+  gap: var(--gap-58xl);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  width: auto;
+  height: auto;
+}
+.stories2 {
+  margin: 0;
+  width: 270px;
+  height: 50px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.view-more-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-league-spartan);
+}
+.view-more {
+  cursor: pointer;
+  margin: 0;
+  padding-left: 5%;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+

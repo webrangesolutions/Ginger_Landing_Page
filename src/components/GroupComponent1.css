@@ -1,0 +1,155 @@
+.frame-child4 {
+  align-self: stretch;
+  height: 241px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: flex;
+  width: auto;
+  z-index: 1;
+}
+.frame-child4:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: 241px;
+  border-radius: var(--br-8xs);
+}
+.harry-embarked-on {
+  margin: 0;
+}
+.harry-embarked-on-container {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+.harry-embarked-on-container:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+}
+.see-more {
+  margin: 0;
+  margin-top: 5%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  min-width: 115;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.see-more:hover {
+  cursor: pointer;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-6xl);
+  text-align: left;
+  color: var(--primary);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 115;
+}
+.see-more-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-6xl);
+  color: var(--primary);
+}
+.see-more-wrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+}
+.harry-embarked-on-his-fitness-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.harry-embarked-on-his-fitness-parent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.rectangle-parent {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-7xs) var(--padding-4xl)
+    var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.rectangle-parent:hover {
+  background-color: var(--color-white);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-6xs) var(--padding-7xs) var(--padding-4xl)
+    var(--padding-6xs);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+}

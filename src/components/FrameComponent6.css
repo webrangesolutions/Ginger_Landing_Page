@@ -1,0 +1,229 @@
+.whatsapp-image-2024-06-03-at-5 {
+  height: 68px;
+  width: 56px;
+  position: relative;
+  object-fit: cover;
+  display: flex;
+  z-index: 4;
+}
+.whatsapp-image-2024-06-03-at-5:hover {
+  display: flex;
+  width: 56px;
+  height: 68px;
+}
+.whatsapp-image-2024-06-03-at-5-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  margin-left: 2%;
+}
+.whatsapp-image-2024-06-03-at-5-wrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  border-bottom: 4px solid transparent; /* Initial state with no underline */
+  transition: border-bottom 0.3s ease; /* Smooth transition for the underline */
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  font-weight: bold; /* Make text bold on hover */
+  font-family: var(--font-league-spartan);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  border-bottom: 2px solid brown; /* Add a brown underline on hover */
+}
+
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-xs);
+  transform: rotate(0deg);
+}
+
+.nav-item:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+
+.frame-parent1 {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-league-spartan);
+}
+
+.frame-parent1:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  transform: rotate(0deg);
+}
+
+.frame-nav {
+  margin: 0;
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.frame-nav:hover {
+  display: flex;
+  width: 575px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.get-started {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-league-spartan);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  min-width: 81;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+
+.get-started-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-base-5) var(--padding-5xl);
+  /* background-color: transparent; */
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, #b25916, #91480a);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-5xs);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+  margin-right: 2%;
+}
+
+.get-started-wrapper:hover {
+  background: black;
+  color: white; 
+}
+
+
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.frame-wrapper {
+  width: 789px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+/* Update the background color for the navbar container to 60% opacity black */
+.frame-container {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-bottom: 1px solid var(--filters);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-3xs);
+  /* margin-bottom: 5%; */
+}
+
