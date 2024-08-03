@@ -29,10 +29,8 @@
 }
 .frame-wrapper2 {
   align-self: stretch;
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
-  /* justify-content: flex-start; */
   padding: 0px 0px 0px var(--padding-3xs);
   box-sizing: border-box;
   max-width: 100%;
@@ -101,5 +99,52 @@
   width: auto;
   align-self: unset;
   height: auto;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .ginger-landing-page-inner1 {
+    flex-direction: column; /* Stack sections vertically */
+    padding: 0px var(--padding-xs) var(--padding-xs); /* Adjust padding for mobile */
+  }
+
+  .stories-group {
+    width: 100%;
+  }
+
+  .frame-wrapper2 {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .frame-parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    gap: var(--gap-30xl); /* Adjust gap for mobile view */
+  }
+
+  .group-div {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    grid-template-columns: none; /* Reset grid template for mobile */
+    gap: var(--gap-31xl);
+    margin-right: 2%;
+  }
+
+  .stories2 {
+    font-size: 0.8em; 
+    margin-left: 2%;
+  }
+
+  .view-more-wrapper {
+    justify-content: center; /* Center the "View More" button */
+    padding: 10%; 
+  }
+
+  .view-more {
+    font-size: 0.8em; /* Adjust font size for mobile */
+    padding-left: 0; /* Reset padding */
+  }
 }
 

@@ -4,7 +4,7 @@ import "./FrameComponent4.css";
 
 const FrameComponent4 = ({ className = "" }) => {
   return (
-    <section className={`ginger-landing-page-inner1 ${className}`}>
+    <section id="stories" className={`ginger-landing-page-inner1 ${className}`}>
       <div className="stories-group">
         <h1 className="stories2">Stories</h1>
         <div className="frame-wrapper2">

@@ -3,7 +3,7 @@ import "./FrameComponent3.css";
 
 const FrameComponent3 = ({ className = "" }) => {
   return (
-    <section className={`ginger-landing-page-inner2 ${className}`}>
+    <section id="community" className={`ginger-landing-page-inner2 ${className}`}>
       <div className="join-the-ginger-community-parent">
         <h1 className="join-the-ginger">Join the Ginger Community</h1>
         <div className="frame-wrapper3">
@@ -16,7 +16,7 @@ const FrameComponent3 = ({ className = "" }) => {
                 </div>
                 <div className="ellipse-parent">
                   <div className="ellipse-div" />
-                  <div className="div1">3</div>
+                  <div className="div1">2</div>
                 </div>
               </div>
               <div className="frame-wrapper4">
@@ -42,7 +42,7 @@ const FrameComponent3 = ({ className = "" }) => {
               <div className="frame-parent9">
                 <div className="ellipse-parent">
                   <div className="ellipse-div" />
-                  <div className="div2">2</div>
+                  <div className="div2">3</div>
                 </div>
                 <div className="ellipse-parent">
                   <div className="ellipse-div" />

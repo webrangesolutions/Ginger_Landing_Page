@@ -3,7 +3,7 @@ import "./FrameComponent2.css";
 
 const FrameComponent2 = ({ className = "" }) => {
   return (
-    <section className={`frame-parent11 ${className}`}>
+    <section id="coach-connect" className={`frame-parent11 ${className}`}>
       <div className="frame-wrapper6">
         <div className="coach-connect-group">
           <h1 className="coach-connect2">Coach Connect</h1>

@@ -1,7 +1,6 @@
-import React from 'react';
+import React , { useEffect} from 'react';
 import FrameComponent6 from "../components/FrameComponent6";
 import FrameComponent from "../components/FrameComponent";
-import FrameComponent5 from "../components/FrameComponent5";
 import FrameComponent4 from "../components/FrameComponent4";
 import FrameComponent3 from "../components/FrameComponent3";
 import FrameComponent2 from "../components/FrameComponent2";
@@ -10,6 +9,27 @@ import ContactUsSection from "../components/contactUs"; // Import the new compon
 import "./GingerLandingPage.css";
 
 const GingerLandingPage = () => {
+
+  useEffect(() => {
+    const removeBrTags = () => {
+      if (window.innerWidth <= 900) {
+        document.querySelectorAll('.welcome-paragraph br').forEach(br => br.remove());
+        document.querySelectorAll('.get-the-support br').forEach(br => br.remove());
+      }
+    };
+
+    // Resize event listener
+    window.addEventListener('resize', removeBrTags);
+
+    removeBrTags();
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', removeBrTags);
+    };
+  }, []);
+
+
   return (
     <div className="ginger-landing-page">
       <div className="background-container">
@@ -26,7 +46,7 @@ const GingerLandingPage = () => {
             Take your running to the next level!
           </h1>
           <h1 className="get-the-support-container">
-            <p className="get-the-support">Get the support you need as a runner with tailored running plans to achieve your goals,<br />
+            <p className="get-the-support">Get the support you need as a runner with tailored running plans to achieve your goals, <br />
               from training for a faster 5k to completing your first marathon.
             </p>
           </h1>
@@ -35,7 +55,7 @@ const GingerLandingPage = () => {
 
       <FrameComponent frame1686552025="pending_1125:1786" />
 
-      <section className="frame-parent">
+      <section id='about-us' className="frame-parent">
         <div className="about-us-parent">
           <h1 className="about-us">About Us</h1>
           <h3 className="welcome-to-ginger-container">
@@ -54,7 +74,52 @@ const GingerLandingPage = () => {
         />
       </section>
 
-      <FrameComponent5 />
+
+
+      <section id='contact-us' className="frame-section">
+        <div className="contact-us-group">
+          <h1 className="contact-us2">Contact us</h1>
+          <div className="were-here-to-help-you-on-your-wrapper">
+            <h3 className="were-here-to-container">
+              <p className="were-here-to">
+                We're here to help you on your fitness journey. If you have any questions, feedback, 
+                or need support, please reach out to us. Our dedicated team is available to assist you with any
+                inquiries.
+              </p>
+            </h3>
+          </div>
+          <div className="frame-wrapper1">
+            <div className="frame-parent2">
+              <img
+                className="frame-child1"
+                loading="lazy"
+                alt=""
+                src="/group-1686551905.svg"
+              />
+              <img
+                className="frame-child1"
+                loading="lazy"
+                alt=""
+                src="/group-1686551906.svg"
+              />
+              <img
+                className="frame-child1"
+                loading="lazy"
+                alt=""
+                src="/group-1686551907.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          className="pexels-runffwpu-2168292-1-icon"
+          loading="lazy"
+          alt=""
+          src="/pexelsrunffwpu2168292-1@2x.png"
+        />
+      </section>
+      
+
       <FrameComponent4 />
       <FrameComponent3 />
       <FrameComponent2 />
