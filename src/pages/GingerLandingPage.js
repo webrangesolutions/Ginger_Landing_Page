@@ -3,9 +3,9 @@ import FrameComponent6 from "../components/FrameComponent6";
 import FrameComponent from "../components/FrameComponent";
 import FrameComponent4 from "../components/FrameComponent4";
 import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent2 from "../components/FrameComponent2";
 import DownloadApp from "../components/DownloadApp";
 import ContactUsSection from "../components/contactUs"; // Import the new component
+import CoachComponent from '../components/CoachComponent';
 import "./GingerLandingPage.css";
 
 const GingerLandingPage = () => {
@@ -122,7 +122,7 @@ const GingerLandingPage = () => {
 
       <FrameComponent4 />
       <FrameComponent3 />
-      <FrameComponent2 />
+      <CoachComponent />
       
       <DownloadApp />
 

@@ -318,7 +318,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px var(--padding-47xl) var(--padding-70xl);
+  padding: 0px var(--padding-47xl) 0px;
   box-sizing: border-box;
   max-width: 100%;
   width: auto;
@@ -350,9 +350,6 @@
   .frame-parent4{
     flex-direction: column;
   }
-  /* .frame-parent9, .frame-parent6{
-    margin-bottom: 1em;
-  } */
   .frame-parent10, .frame-parent7{
     gap: 2em;
   }
