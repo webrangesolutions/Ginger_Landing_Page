@@ -7,13 +7,6 @@
   box-sizing: border-box;
   z-index: 2;
 }
-.footer-curve-icon:hover {
-  display: flex;
-  width: 2px;
-  height: 424px;
-  border: 2px solid var(--color-white);
-  box-sizing: border-box;
-}
 .phone-number {
   margin: 0;
   position: relative;
@@ -121,18 +114,7 @@
   height: auto;
   transform: rotate(0deg);
 }
-.form-fields:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-51xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
+
 .abcgmailcom {
   position: relative;
   font-size: var(--font-size-3xl);
@@ -148,20 +130,7 @@
   align-self: unset;
   height: auto;
 }
-.abcgmailcom:hover {
-  font-weight: 500;
-  font-family: var(--font-league-spartan);
-  font-size: var(--font-size-3xl);
-  letter-spacing: 0.2px;
-  line-height: 20px;
-  text-align: left;
-  color: var(--color-gray-600);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  white-space: nowrap;
-}
+
 .email-box {
   flex: 1;
   border-radius: var(--br-9xs);
@@ -175,19 +144,7 @@
   height: auto;
   gap: var(--gap-0);
 }
-.email-box:hover {
-  display: flex;
-  flex: 1;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: var(--br-9xs);
-  padding: var(--padding-sm) var(--padding-13xl) var(--padding-smi);
-  box-sizing: border-box;
-  max-width: 100%;
-}
+
 .user-email {
   cursor: pointer;
   border: none;
@@ -204,18 +161,7 @@
   gap: var(--gap-base);
   z-index: 2;
 }
-.user-email:hover {
-  background-color: var(--color-gray-100);
-  display: flex;
-  width: 420px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-base);
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: var(--br-5xs);
-  max-width: 100%;
-}
+
 .form-container {
   margin: 0;
   align-self: stretch;
@@ -229,18 +175,7 @@
   height: auto;
   transform: rotate(0deg);
 }
-.form-container:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-base);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
+
 .link {
   position: relative;
   text-decoration: underline;
@@ -252,19 +187,7 @@
   height: auto;
   z-index: 2;
 }
-.link:hover {
-  cursor: pointer;
-  font-family: var(--font-league-spartan);
-  font-size: var(--font-size-sm);
-  line-height: 150%;
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  width: auto;
-  align-self: unset;
-  height: auto;
-  min-width: 78;
-}
+
 .link1 {
   flex: 1;
   position: relative;
@@ -275,18 +198,7 @@
   height: auto;
   z-index: 2;
 }
-.link1:hover {
-  cursor: pointer;
-  font-family: var(--font-league-spartan);
-  font-size: var(--font-size-sm);
-  line-height: 150%;
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  flex: 1;
-  height: auto;
-  min-width: 94;
-}
+
 .link2 {
   flex: 1;
   position: relative;
@@ -297,18 +209,7 @@
   height: auto;
   z-index: 2;
 }
-.link2:hover {
-  cursor: pointer;
-  font-family: var(--font-league-spartan);
-  font-size: var(--font-size-sm);
-  line-height: 150%;
-  text-align: left;
-  color: var(--color-white);
-  display: flex;
-  flex: 1;
-  height: auto;
-  min-width: 95;
-}
+
 .footer-links {
   width: 315px;
   display: flex;
@@ -319,16 +220,7 @@
   height: auto;
   transform: rotate(0deg);
 }
-.footer-links:hover {
-  display: flex;
-  width: 315px;
-  height: auto;
-  flex-direction: row;
-  gap: var(--gap-5xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-}
+
 .footer-content1 {
   align-self: stretch;
   display: flex;
@@ -341,18 +233,7 @@
   height: auto;
   transform: rotate(0deg);
 }
-.footer-content1:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-14xl-5);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  max-width: 100%;
-}
+
 .footer1 {
   width: 667px;
   display: flex;
@@ -366,19 +247,7 @@
   gap: var(--gap-0);
   transform: rotate(0deg);
 }
-.footer1:hover {
-  display: flex;
-  width: 667px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-end;
-  transform: rotate(0deg);
-  padding: 0px 0px var(--padding-xs);
-  box-sizing: border-box;
-  max-width: 100%;
-}
+
 .download-app {
   background-color: var(--color-black);
   display: flex;
@@ -398,5 +267,188 @@
   font-size: var(--font-size-sm);
   color: var(--color-white);
   font-family: var(--font-league-spartan);
+}
+
+
+/* -------------------------------------------------   Verification group styling ----------------------------------------------------- */
+
+.checkbox {
+  height: 34px;
+  width: 34px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.checkbox.checked {
+  background-color: var(--color-gray-300); /* Adjust the background color as needed */
+}
+
+.tick {
+  font-size: 24px;
+  color: var(--color-white); /* Adjust the tick color as needed */
+}
+
+.i-am-human {
+  position: relative;
+  display: flex;
+  min-width: 68px;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  margin-top: 5%;
+}
+
+.human-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.agreement {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+  padding-top: 10%;
+}
+
+.human-check {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-mid);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.group-icon1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  display: flex;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-mid);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.submit-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-sm);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.privacy-terms {
+  align-self: stretch;
+  height: 12px;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: auto;
+  margin-left: 20px;
+}
+
+.legal {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs-5);
+  height: auto;
+  transform: rotate(0deg);
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+
+.verification {
+  width: 302px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-7xs) var(--padding-8xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  height: auto;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-league-spartan);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .download-app{
+    flex-direction: column;
+    padding: 0px var(--padding-13xl) 0px;
+    padding-top: 10%;
+  }
+  .footer-curve-icon {
+    height: 2px;  /* Change height to 2px for horizontal line */
+    width: 100%; /* Change width to 100% for horizontal line */
+    border-width: 2px 0; 
+  }
+  .form-fields{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .email-input{
+    width: 100%;
+  }
 }
 

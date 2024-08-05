@@ -1,10 +1,16 @@
 import DownloadContainer from "./DownloadContainer";
 import NameEntry from "./NameEntry";
-import Verification from "./Verification";
 import PropTypes from "prop-types";
+import { useState } from "react";
 import "./DownloadApp.css";
 
 const DownloadApp = ({ className = "" }) => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxClick = () => {
+    setIsChecked(!isChecked);
+  };
+
   return (
     <footer className={`download-app ${className}`}>
       <DownloadContainer
@@ -39,7 +45,27 @@ const DownloadApp = ({ className = "" }) => {
                 />              
             </div>
           </form>
-          <Verification group="/group.svg" union="/union.svg" />
+          <div className={`verification ${className}`}>
+            <div className="human-check">
+              <div className="agreement">
+                <div 
+                  className={`checkbox ${isChecked ? "checked" : ""}`} 
+                  onClick={handleCheckboxClick}
+                >
+                  {isChecked && <span className="tick">✔</span>}
+                </div>
+                <div className="human-label">
+                  <div className="i-am-human">I am human</div>
+                </div>
+              </div>
+            </div>
+            <div className="legal">
+              <div className="submit-button">
+                <img className="group-icon1" alt="" src="/group.svg" />
+              </div>
+              <div className="privacy-terms">Privacy - Terms</div>
+            </div>
+          </div>
           <div className="footer-links">
             <div className="link">Privacy Policy</div>
             <div className="link1">Terms of Service</div>

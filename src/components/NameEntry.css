@@ -35,19 +35,7 @@
   min-width: 133;
   gap: var(--gap-0);
 }
-.user-name:hover {
-  display: flex;
-  flex: 1;
-  height: 43px;
-  flex-direction: row;
-  gap: var(--gap-0);
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: var(--br-9xs);
-  padding: var(--padding-xs) var(--padding-13xl) var(--padding-2xs);
-  box-sizing: border-box;
-  min-width: 133;
-}
+
 .entered-name {
   align-self: stretch;
   border-radius: var(--br-5xs);
@@ -105,17 +93,7 @@
   height: auto;
   transform: rotate(0deg);
 }
-.name-value:hover {
-  display: flex;
-  align-self: stretch;
-  width: auto;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-26xl);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-}
+
 .name-entry {
   width: 222px;
   display: flex;
@@ -131,14 +109,10 @@
   color: var(--color-white);
   font-family: var(--font-league-spartan);
 }
-.name-entry:hover {
-  display: flex;
-  width: 222px;
-  height: auto;
-  flex-direction: column;
-  gap: var(--gap-base);
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: rotate(0deg);
-  min-width: 222;
+
+
+@media (max-width: 768px) {
+  .name-entry{
+    width: 100%;
+  }
 }

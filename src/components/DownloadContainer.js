@@ -77,21 +77,19 @@ const DownloadContainer = ({
                     <div className="twitter">Twitter</div>
                   </div>
                 </div>
+                <div className="linkedin-icon">
+                  <img
+                    className="icon-facebook"
+                    loading="lazy"
+                    alt=""
+                    src={iconLinkedIn}
+                  />
+                  <div className="social-names-container">
+                    <div className="linkedin1">LinkedIn</div>
+                  </div>
+                </div>
               </div>
               <div className="text">© 2024 Socials. All rights reserved.</div>
-            </div>
-          </div>
-          <div className="linkedin">
-            <div className="linkedin-icon">
-              <img
-                className="icon-facebook"
-                loading="lazy"
-                alt=""
-                src={iconLinkedIn}
-              />
-              <div className="social-names-container">
-                <div className="linkedin1">LinkedIn</div>
-              </div>
             </div>
           </div>
         </div>

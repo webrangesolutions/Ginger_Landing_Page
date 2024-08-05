@@ -6,7 +6,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import GingerLandingPage from "./pages/GingerLandingPage";
-import ECommerceLandingPage from "./pages/ECommerceLandingPage";
 
 function App() {
   const action = useNavigationType();
@@ -20,7 +19,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<GingerLandingPage />} />
-      <Route path="/ecommerce-landing-page" element={<ECommerceLandingPage />} />
     </Routes>
   );
 }

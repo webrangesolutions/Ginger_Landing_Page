@@ -29,4 +29,10 @@
     height: 40px;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    .contact-us-content{
+      margin-right: 0%;
+    }
+  }
   
